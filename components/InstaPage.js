@@ -59,6 +59,111 @@ const InstaPage = () => {
   );
 };
 
-
+const styles = StyleSheet.create({
+ container: {
+   flex: 1,
+   backgroundColor: "#fff",
+ },
+ 
+ scrollContainer: {
+   flexGrow: 1,
+   alignItems: "center",
+   paddingBottom: 80,
+ },
+ 
+ header: {
+   flexDirection: "row",
+   alignItems: "center",
+   justifyContent: "space-between",
+   width: width * 0.95,
+   paddingVertical: 10,
+ },
+ profilePic: {
+   width: 40,
+   height: 40,
+   borderRadius: 20,
+ },
+ username: {
+   fontWeight: "bold",
+   fontSize: 16,
+   flex: 1,
+   marginLeft: 10,
+ },
+ 
+ postImage: {
+   width: width * 0.9,
+   height: width, 
+   marginVertical: 10,
+ },
+ 
+ actions: {
+   flexDirection: "row",
+   width: width * 0.9,
+   justifyContent: "flex-start",
+   gap: 15,
+   paddingVertical: 10,
+ },
+ 
+ likes: {
+   fontWeight: "bold",
+   width: width * 0.9,
+   textAlign: "left",
+ },
+ caption: {
+   marginTop: 5,
+   width: width * 0.9,
+   textAlign: "left",
+ },
+ 
+ comment: {
+   width: width * 0.9,
+   textAlign: "left",
+   marginTop: 3,
+ },
+ viewMore: {
+   width: width * 0.9,
+   textAlign: "left",
+   color: "#888",
+   marginTop: 5,
+ },
+ 
+ bottomContainer: {
+   width: width,
+   alignItems: "center",
+   position: "absolute",
+   bottom: 0,
+   backgroundColor: "#fff",
+   borderTopWidth: 1,
+   borderColor: "#ddd",
+   paddingVertical: 15,
+ },
+ 
+ alertButton: {
+   backgroundColor: "#000", 
+   paddingVertical: 12,
+   alignItems: "center",
+   justifyContent: "center",
+   borderRadius: 8,
+   width: width * 0.9,
+   marginBottom: 15,
+ },
+ alertText: {
+   color: "#fff",
+   fontWeight: "bold",
+   fontSize: 16,
+ },
+ 
+ bottomNav: {
+   flexDirection: "row",
+   justifyContent: "space-around",
+   width: width,
+   paddingVertical: 10,
+ },
+ navProfilePic: {
+   width: 30,
+   height: 30,
+   borderRadius: 15,
+ },
+});
 
 export default InstaPage;

@@ -59,4 +59,6 @@ const InstaPage = () => {
   );
 };
 
+
+
 export default InstaPage;
